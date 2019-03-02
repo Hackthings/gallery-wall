@@ -2,12 +2,12 @@ const $ = query => document.querySelector(query);
 
 const classMap = {
   twitter: 'tada',
-  insta: 'flipInX',
+  insta: 'fadeIn',
   medium: 'swing',
   github: 'jello',
   youtube: 'rubberBand',
   soundcloud: 'heartBeat',
-  itch: 'flip',
+  itch: 'wobble',
   apple: 'heartBeat',
   spotify: 'heartBeat',
   whoops: 'hinge'
