@@ -187,7 +187,9 @@ span {
 }
 
 .insta {
-  margin-top: 0.5vw;
+  width: 8vw;
+  height: 8vw;
+  margin-top: 0.67vw;
 }
 
 img {
