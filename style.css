@@ -8,6 +8,11 @@ body {
   color: #242424;
 }
 
+main {
+  position: absolute;
+  margin-top: 50vh;
+}
+
 span {
   font-size: 7vw;
 }
@@ -86,6 +91,11 @@ span {
   height: 20%;
 }
 
+.colors {
+  width: 40vw;
+  height: 15vw;
+}
+
 .blue {
   border-color: #0101c6;
 }
@@ -148,12 +158,12 @@ span {
 
 .spotify {
   color: #1ed75f;
-  transform: scale(1.3) translateY(0.3vw);
+  transform: scale(1.3) translateY(0.1vw);
 }
 
 .apple {
   color: #fa57c1;
-  transform: scale(1.5);
+  transform: scale(1.5) translateY(-0.2vw);
 }
 
 .itch {
@@ -179,7 +189,7 @@ span {
 }
 
 .fa-github {
-  transform: scale(2) translateY(0.1vw);
+  transform: scale(1.8) translateY(0.1vw);
 }
 
 .fa-medium-m {
