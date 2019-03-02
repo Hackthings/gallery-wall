@@ -18,7 +18,6 @@ Object.keys(classMap).forEach((icon) => {
   // This way, the animation can finish playing even if user mouses out of frame.
   // (As opposed to toggling onmouseover & onmouseout.)
   el.onmouseover = (e) => {
-    console.log('doin it');
     el.classList.remove(classMap[icon]);
     setTimeout(() => {
       el.classList.add(classMap[icon]);
