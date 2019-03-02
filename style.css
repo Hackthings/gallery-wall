@@ -152,12 +152,18 @@ span {
 
 .spotify {
   color: #1ed75f;
-  transform: scale(1.3) translateY(0.1vw);
+}
+
+.spotify-container {
+  transform: scale(0.9) translateY(0.1vw);
 }
 
 .apple {
   color: #fa57c1;
-  transform: scale(1.5) translateY(-0.2vw);
+}
+
+.apple-container {
+  transform: translateY(-0.2vw);
 }
 
 .itch {
@@ -174,20 +180,14 @@ span {
 
 .soundcloud {
   color: #ff3300;
+}
+
+.soundcloud-orange {
   border-color: #ff8800;
 }
 
-
-.fa-youtube {
-  transform: scale(1.2);
-}
-
-.fa-github {
-  transform: scale(1.8) translateY(0.1vw);
-}
-
-.fa-medium-m {
-  transform: scale(1.5);
+.insta {
+  margin-top: 0.5vw;
 }
 
 img {
@@ -196,6 +196,6 @@ img {
 }
 
 i {
-  font-size: 4vw;
+  font-size: 5vw;
   padding: 2vw;
 }
