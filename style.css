@@ -32,14 +32,19 @@ span {
   flex-direction: column;
 }
 
-.stack .square-sm {
+.square {
+  width: 8vw;
+  height: 8vw;
+}
+
+.stack .square {
   width: 6.5vw;
   height: 6.5vw;
   transform: translateY(-0.15vw);
   margin: 0.5vw;
 }
 
-.stack .landscape-sm {
+.stack .landscape {
   margin: 0.67vw;
   width: 10vw;
   height: 5vw;
@@ -51,10 +56,6 @@ span {
 
 .row1 div {
   align-self: flex-end;
-}
-
-.row1 .portrait {
-  width: 14.5vw;
 }
 
 .row2 {
@@ -71,29 +72,18 @@ span {
   margin: 1%;
 }
 
+.thick {
+  border: 2vw solid;
+}
+
 .portrait {
-  width: 20%;
-  height: 28%;
-}
-
-.landscape {
-  height: 10%;
-  width: 28%;
-}
-
-.square-sm {
-  width: 10%;
-  height: 10%;
-}
-
-.square-lg {
-  width: 20%;
-  height: 20%;
+  width: 18vw;
+  height: 22vw;
 }
 
 .colors {
-  width: 40vw;
-  height: 15vw;
+  width: 30vw;
+  height: 12vw;
 }
 
 .blue {
@@ -101,7 +91,7 @@ span {
 }
 
 .light-blue {
-  border-color: lightblue;
+  border-color: #53d5ff;
 }
 
 .red {
@@ -109,11 +99,11 @@ span {
 }
 
 .yellow {
-  border-color: yellow;
+  border-color: #fdfd03;
 }
 
 .green {
-  border-color: darkgreen;
+  border-color: #00d100;
 }
 
 .pink {
@@ -145,7 +135,11 @@ span {
 }
 
 .blue-green {
-  border-color: #0ea7de;
+  border-color: #00ffb1;
+}
+
+.deep-pink {
+  border-color: #ff7bd1;
 }
 
 .twitter {
