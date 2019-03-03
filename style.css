@@ -32,11 +32,6 @@ span {
   flex-direction: column;
 }
 
-.square {
-  width: 8vw;
-  height: 8vw;
-}
-
 .stack .square {
   width: 6.5vw;
   height: 6.5vw;
@@ -58,6 +53,10 @@ span {
   align-self: flex-end;
 }
 
+.row1 .portrait {
+  width: 14.5vw;
+}
+
 .row2 {
   align-items: center;
 }
@@ -72,18 +71,28 @@ span {
   margin: 1%;
 }
 
-.thick {
-  border: 2vw solid;
+.portrait {
+  width: 20%;
+  height: 28%;
 }
 
-.portrait {
-  width: 18vw;
-  height: 22vw;
+.landscape {
+  height: 10%;
+  width: 28%;
+}
+
+.square {
+  width: 10%;
+  height: 10%;
 }
 
 .colors {
-  width: 30vw;
-  height: 12vw;
+  width: 40vw;
+  height: 15vw;
+}
+
+.seeds {
+  width: 20vw;
 }
 
 .blue {
@@ -91,7 +100,7 @@ span {
 }
 
 .light-blue {
-  border-color: #53d5ff;
+  border-color: lightblue;
 }
 
 .red {
@@ -99,11 +108,11 @@ span {
 }
 
 .yellow {
-  border-color: #fdfd03;
+  border-color: yellow;
 }
 
 .green {
-  border-color: #00d100;
+  border-color: darkgreen;
 }
 
 .pink {
@@ -135,11 +144,11 @@ span {
 }
 
 .blue-green {
-  border-color: #00ffb1;
+  border-color: #0ea7de;
 }
 
-.deep-pink {
-  border-color: #ff7bd1;
+.soundcloud-orange {
+  border-color: #ff8800;
 }
 
 .twitter {
@@ -152,18 +161,12 @@ span {
 
 .spotify {
   color: #1ed75f;
-}
-
-.spotify-container {
-  transform: scale(0.9) translateY(0.1vw);
+  transform: scale(1.3) translateY(0.1vw);
 }
 
 .apple {
   color: #fa57c1;
-}
-
-.apple-container {
-  transform: translateY(-0.2vw);
+  transform: scale(1.5) translateY(-0.2vw);
 }
 
 .itch {
@@ -182,14 +185,16 @@ span {
   color: #ff3300;
 }
 
-.soundcloud-orange {
-  border-color: #ff8800;
+.fa-youtube {
+  transform: scale(1.2);
 }
 
-.insta {
-  width: 8vw;
-  height: 8vw;
-  margin-top: 0.67vw;
+.fa-github {
+  transform: scale(1.8) translateY(0.1vw);
+}
+
+.fa-medium-m {
+  transform: scale(1.5);
 }
 
 img {
@@ -198,6 +203,6 @@ img {
 }
 
 i {
-  font-size: 5vw;
+  font-size: 4vw;
   padding: 2vw;
 }
