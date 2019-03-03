@@ -9,8 +9,7 @@ const classMap = {
   soundcloud: 'heartBeat',
   itch: 'wobble',
   apple: 'heartBeat',
-  spotify: 'heartBeat',
-  whoops: 'hinge'
+  spotify: 'heartBeat'
 };
 
 Object.keys(classMap).forEach((icon) => {
